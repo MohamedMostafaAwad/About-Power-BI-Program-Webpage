@@ -1,0 +1,180 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Set a background color and some basic styles for the whole page */
+body {
+  background-color: #ffffff;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style the header */
+h1 {
+  color: #004890;
+}
+
+/* Style the images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px 0;
+  border-radius: 25px;
+}
+
+/* Style paragraphs */
+p {
+  margin-bottom: 15px;
+}
+
+/* Style unordered lists */
+ul {
+  margin-bottom: 15px;
+}
+
+/* Style headings */
+h2,
+h3 {
+  color: #1070b9;
+  margin-top: 20px;
+}
+
+/* Centered text style */
+.centered-text {
+  text-align: center;
+}
+
+/* Style links */
+a {
+  color: #d43c00;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Style the footer */
+footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #777;
+}
+
+
+h1 {
+    color: #d46a00;
+    opacity: 0;
+    /* Start with opacity 0 */
+    animation: fadeIn 1s forwards;
+    /* Use a fadeIn animation with 1-second duration */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Add a scale-up animation for images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+    transform: scale(0.9);
+    /* Start with a slightly scaled-down size */
+    transition: transform 0.5s ease-out;
+    /* Use a smooth transition effect */
+}
+
+img:hover {
+    transform: scale(1);
+    /* Scale up to the original size on hover */
+}
+
+.contact {
+    padding: 50px 0;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+header {
+  background-color: #67202076; /* Background color of the header */
+  justify-content: center; /* Horizontal center alignment */
+  padding: 20px; /* Padding around the header */
+  display: flex; /* Making the header a flex container */
+  align-items: center; /* Centering elements vertically within the header */
+}
+
+.logo img {
+  max-width: 100px; /* Set the maximum width of the logo image */
+  height: auto; /* Allowing the height to adjust proportionally */
+}
+
+nav ul {
+  list-style: none; /* Removing the bullet points from the list */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Making the list items display horizontally */
+}
+
+nav ul {
+  list-style: none; /* Removing the bullet points from the list */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Making the list items display horizontally */
+}
+
+nav ul li {
+  margin-right: 20px; /* Adding space between the navigation links */
+}
+
+nav a {
+  text-decoration: none; /* Removing underline from the links */
+  color: #ffffff; /* Setting the color of the links */
+}
